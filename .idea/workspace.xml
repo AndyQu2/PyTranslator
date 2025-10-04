@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4446594-5260-4d48-8979-d0222d2a3e14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PyTranslator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/attention.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/decoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/decoder_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/encoder_layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/feed_forward.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/multihead_attention.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/positional_encoding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Transformer/transformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="d4446594-5260-4d48-8979-d0222d2a3e14" name="Changes" comment="Create a transformer model">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AndyQu2"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AndyQu2/PyTranslator",
+    "accountId": "4ec41796-996b-4064-9182-47179e5b5a69"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -54,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -86,22 +81,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759556802007</updated>
-      <workItem from="1759556803072" duration="5346000" />
+      <workItem from="1759556803072" duration="7620000" />
     </task>
+    <task id="LOCAL-00001" summary="Create a transformer model">
+      <option name="closed" value="true" />
+      <created>1759562281767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759562281767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create a transformer model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a transformer model" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyTranslator$main.coverage" NAME="main Coverage Results" MODIFIED="1759563701579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
