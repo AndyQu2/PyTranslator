@@ -4,8 +4,7 @@ import torch.nn.functional as f
 
 MY_INF = 1e12
 
-def attention(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor,
-              mask: Optional[torch.Tensor] = None):
+def attention(q: torch.Tensor, k: torch.Tensor, v: torch.Tensor, mask: Optional[torch.Tensor] = None):
     assert q.shape[-1] == k.shape[-1]
     d_k = k.shape[-1]
     tmp = torch.matmul(q, k.transpose(-2, -1)) / d_k**0.5

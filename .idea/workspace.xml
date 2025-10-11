@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4446594-5260-4d48-8979-d0222d2a3e14" name="Changes" comment="Create a transformer model">
+      <change afterPath="$PROJECT_DIR$/data/preprocessed/cn.txt.vocab.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/preprocessed/en.txt.vocab.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/cn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/en.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/cn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/en.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make_vocab.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_translate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transformer/attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transformer/feed_forward.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/feed_forward.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transformer/positional_encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/positional_encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -22,21 +37,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AndyQu2"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AndyQu2&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/AndyQu2/PyTranslator",
-    "accountId": "4ec41796-996b-4064-9182-47179e5b5a69"
+    "url": "https://github.com/AndyQu2/PyTranslator.git",
+    "accountId": "f51a5b05-0788-4f94-baf8-261f59df837e"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="33aYlb1JDPdEABEahtuUimEWNPu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,11 +63,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Make Vocab.executor": "Run",
+    "Python.Train Model.executor": "Run",
+    "Python.Translate.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.make_vocab.executor": "Run",
+    "Python.test_translate.executor": "Run",
+    "Python.train_model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/student/PycharmProjects/PyTranslator/data/preprocessed",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,14 +84,101 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\student\PycharmProjects\PyTranslator\Transformer" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\data\preprocessed" />
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\data" />
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\data\test" />
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\data\train" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\output" />
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\data\preprocessed" />
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\Transformer" />
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\Transformer\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Train Model">
+    <configuration name="Make Vocab" type="PythonConfigurationType" factoryName="Python">
+      <module name="PyTranslator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PyTranslator)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="make_vocab.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Train Model" type="PythonConfigurationType" factoryName="Python">
+      <module name="PyTranslator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PyTranslator)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="train_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Translate" type="PythonConfigurationType" factoryName="Python">
+      <module name="PyTranslator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PyTranslator)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="test_translate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Translate" />
+      <item itemvalue="Python.Train Model" />
+      <item itemvalue="Python.Make Vocab" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
         <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
@@ -82,6 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1759556802007</updated>
       <workItem from="1759556803072" duration="7620000" />
+      <workItem from="1760158286348" duration="16032000" />
     </task>
     <task id="LOCAL-00001" summary="Create a transformer model">
       <option name="closed" value="true" />
@@ -102,6 +212,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Create a transformer model" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyTranslator$make_vocab.coverage" NAME="make_vocab Coverage Results" MODIFIED="1760172887008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyTranslator$Train_Model.coverage" NAME="Train Model Coverage Results" MODIFIED="1760174448940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyTranslator$Make_Vocab.coverage" NAME="Make Vocab Coverage Results" MODIFIED="1760174439756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyTranslator$test_translate.coverage" NAME="test_translate Coverage Results" MODIFIED="1760171455773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyTranslator$Translate.coverage" NAME="Translate Coverage Results" MODIFIED="1760174244924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PyTranslator$main.coverage" NAME="main Coverage Results" MODIFIED="1759563701579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyTranslator$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1760169103780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
