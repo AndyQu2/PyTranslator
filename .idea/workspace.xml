@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4446594-5260-4d48-8979-d0222d2a3e14" name="Changes" comment="Create a transformer model">
-      <change afterPath="$PROJECT_DIR$/data/preprocessed/cn.txt.vocab.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/preprocessed/en.txt.vocab.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test/cn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test/en.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/cn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/en.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make_vocab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_translate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transformer/attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/attention.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transformer/feed_forward.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/feed_forward.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transformer/positional_encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transformer/positional_encoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessed/cn.txt.vocab.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/data/preprocessed/cn.txt.vocab.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessed/en.txt.vocab.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/data/preprocessed/en.txt.vocab.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train/en.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/train/en.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make_vocab.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_vocab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_translate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/AndyQu2/PyTranslator.git",
-    "accountId": "f51a5b05-0788-4f94-baf8-261f59df837e"
+    "accountId": "5e7a4146-c933-484f-a2fc-11b099d0bd4a"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -68,13 +61,15 @@
     "Python.Translate.executor": "Run",
     "Python.main.executor": "Run",
     "Python.make_vocab.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.test_translate.executor": "Run",
     "Python.train_model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/student/PycharmProjects/PyTranslator/data/preprocessed",
+    "last_opened_file_path": "C:/Users/student/PycharmProjects/PyTranslator/data/train",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,10 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator\data\train" />
+      <recent name="C:\Users\student\PycharmProjects\PyTranslator" />
       <recent name="C:\Users\student\PycharmProjects\PyTranslator\data\preprocessed" />
       <recent name="C:\Users\student\PycharmProjects\PyTranslator\data" />
       <recent name="C:\Users\student\PycharmProjects\PyTranslator\data\test" />
-      <recent name="C:\Users\student\PycharmProjects\PyTranslator\data\train" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\student\PycharmProjects\PyTranslator\output" />
@@ -107,7 +103,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (PyTranslator)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -131,7 +126,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (PyTranslator)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -155,7 +149,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13 (PyTranslator)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -192,6 +185,7 @@
       <updated>1759556802007</updated>
       <workItem from="1759556803072" duration="7620000" />
       <workItem from="1760158286348" duration="16032000" />
+      <workItem from="1760498255280" duration="14611000" />
     </task>
     <task id="LOCAL-00001" summary="Create a transformer model">
       <option name="closed" value="true" />
@@ -212,11 +206,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Create a transformer model" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyTranslator$test.coverage" NAME="test Coverage Results" MODIFIED="1760515083393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyTranslator$make_vocab.coverage" NAME="make_vocab Coverage Results" MODIFIED="1760172887008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyTranslator$Train_Model.coverage" NAME="Train Model Coverage Results" MODIFIED="1760174448940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/PyTranslator$Make_Vocab.coverage" NAME="Make Vocab Coverage Results" MODIFIED="1760174439756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/PyTranslator$test_translate.coverage" NAME="test_translate Coverage Results" MODIFIED="1760171455773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyTranslator$Translate.coverage" NAME="Translate Coverage Results" MODIFIED="1760174244924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyTranslator$Train_Model.coverage" NAME="Train Model Coverage Results" MODIFIED="1760519080289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyTranslator$Make_Vocab.coverage" NAME="Make Vocab Coverage Results" MODIFIED="1760520259586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PyTranslator$test_translate.coverage" NAME="test_translate Coverage Results" MODIFIED="1760512688857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyTranslator$Translate.coverage" NAME="Translate Coverage Results" MODIFIED="1760517443064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/PyTranslator$main.coverage" NAME="main Coverage Results" MODIFIED="1759563701579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyTranslator$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1760169103780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
