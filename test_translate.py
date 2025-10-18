@@ -14,7 +14,7 @@ PAD_ID = 0
 MAX_LEN = 50
 
 def main():
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     cn2idx, idx2cn = load_cn_vocab()
     en2idx, idx2en = load_en_vocab()
 
@@ -25,9 +25,7 @@ def main():
     model_path = 'output/en_to_cn_model.pth'
     model.load_state_dict(torch.load(model_path))
 
-    my_input = ['the', 'present', 'food', 'surplus', 'can', 'specifically', 'serve', 'the',
-                'purpose', 'of', 'helping', 'western', 'china', 'restore',
-                'its', 'woodlands', 'grasslands', 'and', 'the', 'beauty', 'of', 'its', 'landscapes']
+    my_input = ['we', 'should', 'protect', 'the', 'environment']
     x_batch = torch.LongTensor([[en2idx[x] for x in my_input]]).to(device)
 
     cn_sentence = idx_to_sentence(x_batch[0], idx2en, True)

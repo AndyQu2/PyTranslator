@@ -10,19 +10,17 @@ def make_vocab(fpath, f_name):
     word2cnt = Counter(words)
     if not os.path.exists("data/preprocessed"):
         os.mkdir("data/preprocessed")
-    with codecs.open("data/preprocessed/{}".format(f_name), "w", "utf-8") as fout:
-        fout.write(
+    with codecs.open("data/preprocessed/{}".format(f_name), "w", "utf-8") as f_out:
+        f_out.write(
             "{}\t1000000000\n{}\t1000000000\n{}\t1000000000\n{}\t1000000000\n".format(
                 "<PAD>", "<UNK>", "<S>", "</S>"
             )
         )
         for word, cnt in word2cnt.most_common(len(word2cnt)):
-            fout.write(u"{}\t{}\n".format(word, cnt))
+            f_out.write(u"{}\t{}\n".format(word, cnt))
 
 
 if __name__ == "__main__":
     make_vocab("data/train/cn.txt", "cn.txt.vocab.tsv")
     make_vocab("data/train/en.txt", "en.txt.vocab.tsv")
-    make_vocab("data/test/cn.txt", "cn.txt.vocab.tsv")
-    make_vocab("data/test/en.txt", "en.txt.vocab.tsv")
     print("Done")
